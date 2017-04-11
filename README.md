@@ -18,14 +18,14 @@ Thanks for trying Muduo-memcached
 ------------------------------------------------------------------------------------
 2、Building Muduo-memcached
 ----
-Muduo-memcached using CMake as build system, the installation method is as follows:
-$ sudo apt-get install cmake
+Muduo-memcached using CMake as build system, the installation method is as follows.
+$ sudo apt-get install cmake.
 Muduo-memcached does not require libevent library, but depends on Boost, the installation method is as follows:
-$ sudo apt-get install libboost-dev libboost-test-dev
+$ sudo apt-get install libboost-dev libboost-test-dev.
 Muduo-memcached's compilation method is simple:
-$ tar zxf muduo_memcached.tar.gz
-$ cd muduo_memcached/
-$ ./build -j2
+$ tar zxf muduo_memcached.tar.gz.
+$ cd muduo_memcached/ .
+$ ./build -j2 .
 
 ------------------------------------------------------------------------------------
 3、Running Muduo-memcached(server)
