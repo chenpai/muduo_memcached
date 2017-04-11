@@ -11,10 +11,11 @@ and socket interface package, It is not easy to use, And it is not conducive to 
 expansion of Memcached. Muduo-memcached to achieve the memcached to C + + changes,
 the use of "channel" instead of "event" processing event distribution, Implemented 
 memcached cache system based on muduo library.
-# Thanks for trying Muduo-memcached
-
+Thanks for trying Muduo-memcached
+----
 ------------------------------------------------------------------------------------
-##2、Building Muduo-memcached
+2、Building Muduo-memcached
+----
 Muduo-memcached using CMake as build system, the installation method is as follows:
 $ sudo apt-get install cmake
 Muduo-memcached does not require libevent library, but depends on Boost, the installation method is as follows:
@@ -25,12 +26,14 @@ $ cd muduo_memcached/
 $ ./build -j2
 
 ------------------------------------------------------------------------------------
-##3、Running Muduo-memcached(server)
+3、Running Muduo-memcached(server)
+----
 $ cd build/release/bin
 $ ./muduo_memcached
 
 ------------------------------------------------------------------------------------
-##4、simple Test Muduo-memcached(client)
+4、simple Test Muduo-memcached(client)
+----
 $ telnet 127.0.0.1 11211
 $ memcached commend ...
 
