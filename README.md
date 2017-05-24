@@ -13,7 +13,7 @@ expansion of Memcached. Muduo-memcached to achieve the memcached to C + + change
 the use of "channel" instead of "event" processing event distribution, Implemented 
 memcached cache system based on muduo library.
 
-Thanks for trying Muduo-memcached
+Thanks for trying Muduo-memcached !
 ----
 ------------------------------------------------------------------------------------
 2、Building Muduo-memcached
